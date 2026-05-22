@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us – Terra</title>
+  <link rel="icon" href="../assets/logo.png" type="image/png" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-figma" id="navbar">
+    <div class="container nav-content">
+      <div class="nav-main-group">
+        <a href="../index.html" class="logo" aria-label="Terra Home">
+          <img src="../assets/logo.png" alt="Terra Icon" class="logo-icon" />
+        </a>
+        <div class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="about.html" class="active">About Us</a>
+          <a href="program.html">Program</a>
+          <a href="event.html">Event</a>
+          <a href="article.html">Article</a>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <a href="#" class="donate-text">Donate Us</a>
+        <button class="primary login-btn">Login</button>
+      </div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <svg id="iconMenu" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg id="iconClose" viewBox="0 0 24 24" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../index.html" onclick="closeMobile()">Home</a>
+      <a href="about.html" class="active" onclick="closeMobile()">About Us</a>
+      <a href="program.html" onclick="closeMobile()">Program</a>
+      <a href="event.html" onclick="closeMobile()">Event</a>
+      <a href="article.html" onclick="closeMobile()">Article</a>
+      <div class="mobile-actions">
+        <button class="secondary">Donate Us</button>
+        <button class="primary">Login</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="about-v2-page">
+    <section class="about-v2-hero section-padding">
+      <div class="container">
+        <div class="about-v2-chip">About Us</div>
+        <h1 class="about-v2-title">United for a Greener Future</h1>
+        <p class="about-v2-subtitle">A community driving positive environmental change.</p>
+
+        <div class="about-v2-hero-actions">
+          <a href="#" class="about-v2-btn about-v2-btn-light">Donate Us</a>
+          <a href="#" class="about-v2-btn about-v2-btn-green">Login</a>
+        </div>
+
+        <div class="about-v2-hero-gallery">
+          <div class="about-v2-hero-side">
+            <img src="../assets/about-hero-left.png" alt="Community activity" />
+          </div>
+          <div class="about-v2-hero-center">
+            <img src="../assets/about-hero-center.png" alt="Terra volunteers" />
+          </div>
+          <div class="about-v2-hero-side">
+            <img src="../assets/about-hero-right.png" alt="Environmental campaign" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-v2-journey section-padding">
+      <div class="container">
+        <div class="about-v2-chip">Our Journey</div>
+        <h2 class="about-v2-heading">Building a community committed to restoring our planet-turning collective action into lasting impact.</h2>
+
+        <div class="about-v2-journey-content">
+          <div class="about-v2-journey-image">
+            <img src="../assets/about-journey.png" alt="Our journey" />
+          </div>
+          <div class="about-v2-journey-text">
+            <p>Starting from a group of individuals' concern about the worsening environmental conditions, the Sustainable Green Environment Community was formed in 2020 with a determination to make a real difference.</p>
+            <p>We believe that every small action, when taken together, can create a tremendous impact. From tree planting programs to environmental education, every step we take is dedicated to a greener and more sustainable future.</p>
+            <p>Today, we are proud to be home to thousands of individuals who share the same vision-creating a healthier environment for current and future generations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-v2-goals section-padding">
+      <div class="container about-v2-goal-grid">
+        <article class="about-v2-goal-card">
+          <div class="about-v2-icon">
+            <img src="../assets/eye.png" alt="Vision icon" />
+          </div>
+          <h3>Vision</h3>
+          <p>Building awareness and real action for environmental conservation through education, community empowerment, and sustainable programs.</p>
+        </article>
+
+        <article class="about-v2-goal-card">
+          <div class="about-v2-icon">
+            <img src="../assets/mission.png" alt="Mission icon" />
+          </div>
+          <h3>Mission</h3>
+          <p>To be a leading environmental community that creates positive and sustainable change for future generations.</p>
+        </article>
+
+        <article class="about-v2-goal-card">
+          <div class="about-v2-icon">
+            <img src="../assets/love.png" alt="Mark icon" />
+          </div>
+          <h3>Mark</h3>
+          <p>Collaboration, sustainability, transparency, and a commitment to making a real impact on the environment and society.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-v2-cta section-padding">
+      <div class="container">
+        <div class="about-v2-cta-inner">
+          <div class="about-v2-cta-grid">
+            <img src="../assets/about-cta-1.png" alt="Forest activity" class="about-v2-cta-img about-v2-cta-img-top-left" />
+            <img src="../assets/about-cta-2.png" alt="Tree planting" class="about-v2-cta-img about-v2-cta-img-top-right" />
+            <img src="../assets/about-cta-3.png" alt="Eco movement" class="about-v2-cta-img about-v2-cta-img-bottom-left" />
+            <img src="../assets/about-cta-4.png" alt="Sustainable future" class="about-v2-cta-img about-v2-cta-img-bottom-right" />
+          </div>
+          <div class="about-v2-cta-overlay"></div>
+          <div class="about-v2-cta-content">
+            <h2>Support Our Movement</h2>
+            <p>Every contribution you make helps create a greener and more sustainable environment.</p>
+            <a href="#" class="about-v2-btn about-v2-btn-white">Donate Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer footer-about-compact">
+    <div class="container">
+      <div class="about-footer-row">
+        <a href="../index.html" class="logo about-footer-brand" aria-label="Terra Home">
+          <img src="../assets/logo.png" alt="Terra Logo" class="logo-img" />
+        </a>
+
+        <div class="about-footer-links">
+          <a href="../index.html">Home</a>
+          <a href="about.html" class="active">About Us</a>
+          <a href="program.html">Program</a>
+          <a href="event.html">Event</a>
+          <a href="article.html">Article</a>
+        </div>
+
+        <a href="#" class="about-footer-join">Join Now</a>
+      </div>
+      <p class="about-footer-copy">&copy;terra2025</p>
+    </div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 20); });
+    const mobileToggle = document.getElementById('mobileToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const iconMenu = document.getElementById('iconMenu');
+    const iconClose = document.getElementById('iconClose');
+    mobileToggle.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('show');
+      iconMenu.style.display = isOpen ? 'none' : 'block';
+      iconClose.style.display = isOpen ? 'block' : 'none';
+    });
+    function closeMobile() {
+      mobileMenu.classList.remove('show');
+      iconMenu.style.display = 'block';
+      iconClose.style.display = 'none';
+    }
+  </script>
+</body>
+</html>
