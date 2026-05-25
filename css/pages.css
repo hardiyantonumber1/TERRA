@@ -1309,10 +1309,10 @@
   left: 24px;
   background: rgba(255, 255, 255, 0.92);
   padding: 6px 14px;
-  border-radius: 50px;
+  border-radius: 8px;
   font-size: 13px;
   font-weight: 500;
-  color: var(--dark);
+  color: #5E745D;
 }
 
 .event-info {
